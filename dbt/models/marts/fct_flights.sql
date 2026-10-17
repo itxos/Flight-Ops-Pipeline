@@ -11,7 +11,8 @@ joined as (
         f.*,
         f.scheduled_at at time zone a.timezone         as scheduled_local,
         f.status in ('Departed', 'Arrived')            as is_completed,
-        f.status in ('Canceled', 'CanceledUncertain')  as is_cancelled
+        f.status = 'Canceled'                          as is_confirmed_cancelled,
+        f.status = 'CanceledUncertain'                 as is_uncertain_cancelled
     from flights f
     join airports a on a.icao = f.airport_icao
 ),
@@ -33,7 +34,9 @@ select
     scheduled_local::date                     as scheduled_date_local,
     extract(hour from scheduled_local)::int   as scheduled_hour_local,
     is_completed,
-    is_cancelled,
+    is_confirmed_cancelled,
+    is_uncertain_cancelled,
+    (is_confirmed_cancelled or is_uncertain_cancelled) as is_cancelled,
     delay_minutes,
     coalesce(delay_minutes >= 15, false)      as is_delayed
 from with_delay

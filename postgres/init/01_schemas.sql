@@ -14,3 +14,4 @@ CREATE TABLE IF NOT EXISTS raw.flights_raw (
 
 CREATE INDEX IF NOT EXISTS idx_flights_raw_airport_window
     ON raw.flights_raw (airport_icao, window_start);
+SELECT 'CREATE DATABASE metabase' WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'metabase')\gexec

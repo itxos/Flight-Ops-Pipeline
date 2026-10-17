@@ -1,23 +1,22 @@
 with raw as (
-    select airport_icao, ingested_at, payload
+    select airport_icao, window_start, window_end, ingested_at, payload
     from {{ source('raw', 'flights_raw') }}
 ),
 
 exploded as (
-    select airport_icao, ingested_at, 'departure' as direction, f.value as flight
+    select airport_icao, window_start, window_end, ingested_at,
+           'departure' as direction, f.value as flight
     from raw, jsonb_array_elements(raw.payload -> 'departures') as f
     union all
-    select airport_icao, ingested_at, 'arrival' as direction, f.value as flight
+    select airport_icao, window_start, window_end, ingested_at,
+           'arrival' as direction, f.value as flight
     from raw, jsonb_array_elements(raw.payload -> 'arrivals') as f
 ),
 
 -- local_leg = the airport we queried; remote_leg = the other end of the flight
 legs as (
     select
-        airport_icao,
-        direction,
-        ingested_at,
-        flight,
+        airport_icao, window_start, window_end, direction, ingested_at, flight,
         case direction when 'departure' then flight -> 'departure' else flight -> 'arrival' end as local_leg,
         case direction when 'departure' then flight -> 'arrival' else flight -> 'departure' end as remote_leg
     from exploded
@@ -28,6 +27,8 @@ parsed as (
         md5(concat_ws('|', airport_icao, direction, flight ->> 'number',
             local_leg -> 'scheduledTime' ->> 'utc')) as flight_key,
         airport_icao,
+        window_start,
+        window_end,
         direction,
         flight ->> 'number'                              as flight_number,
         flight ->> 'callSign'                            as call_sign,
@@ -47,8 +48,17 @@ parsed as (
         local_leg ->> 'terminal'                         as terminal,
         ingested_at
     from legs
+),
+
+-- Drop flights whose scheduled local time is outside the window they were fetched for.
+in_window as (
+    select p.*
+    from parsed p
+    join {{ ref('airports') }} a on a.icao = p.airport_icao
+    where (p.scheduled_at at time zone a.timezone) >= p.window_start
+      and (p.scheduled_at at time zone a.timezone) <  p.window_end
 )
 
 select distinct on (flight_key) *
-from parsed
+from in_window
 order by flight_key, ingested_at desc
