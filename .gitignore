@@ -1,0 +1,10 @@
+.env
+airflow/logs/
+__pycache__/
+*.pyc
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+headers.txt
+docs/sample_response.json
+docs/sample_response.json

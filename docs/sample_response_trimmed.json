@@ -1,0 +1,1305 @@
+{
+  "departures": [
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:01Z",
+          "local": "2026-10-16 08:01-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:01Z",
+          "local": "2026-10-16 08:01-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:08Z",
+          "local": "2026-10-16 08:08-05:00"
+        },
+        "terminal": "5",
+        "runway": "22L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "MPTO",
+          "iata": "PTY",
+          "name": "Tocumen",
+          "location": {
+            "lat": 9.071359,
+            "lon": -79.3835
+          },
+          "countryCode": "pa",
+          "timeZone": "America/Panama"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 18:22Z",
+          "local": "2026-10-16 13:22-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 17:57Z",
+          "local": "2026-10-16 12:57-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 17:57Z",
+          "local": "2026-10-16 12:57-05:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "CM 236",
+      "callSign": "CMP236",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HP-9805",
+        "modeS": "0C21A7",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Copa",
+        "iata": "CM",
+        "icao": "CMP"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:00Z",
+          "local": "2026-10-16 08:00-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:02Z",
+          "local": "2026-10-16 08:02-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:11Z",
+          "local": "2026-10-16 08:11-05:00"
+        },
+        "terminal": "1",
+        "runway": "28R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "KLGA",
+          "iata": "LGA",
+          "name": "New York",
+          "location": {
+            "lat": 40.7772,
+            "lon": -73.8726
+          },
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 15:17Z",
+          "local": "2026-10-16 11:17-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 14:50Z",
+          "local": "2026-10-16 10:50-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 14:46Z",
+          "local": "2026-10-16 10:46-04:00"
+        },
+        "terminal": "B",
+        "runway": "22",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "UA 2092",
+      "callSign": "UAL2092",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N47330",
+        "modeS": "A5CF19",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "United",
+        "iata": "UA",
+        "icao": "UAL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 12:00Z",
+          "local": "2026-10-16 07:00-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:02Z",
+          "local": "2026-10-16 08:02-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:08Z",
+          "local": "2026-10-16 08:08-05:00"
+        },
+        "terminal": "3",
+        "runway": "28R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "KBOS",
+          "iata": "BOS",
+          "name": "Boston",
+          "location": {
+            "lat": 42.3643,
+            "lon": -71.0052
+          },
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 14:33Z",
+          "local": "2026-10-16 10:33-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 15:11Z",
+          "local": "2026-10-16 11:11-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 15:00Z",
+          "local": "2026-10-16 11:00-04:00"
+        },
+        "terminal": "B",
+        "runway": "22L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 2511",
+      "callSign": "AAL2511",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N938AN",
+        "modeS": "AD036E",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 12:25Z",
+          "local": "2026-10-16 07:25-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:04Z",
+          "local": "2026-10-16 08:04-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:14Z",
+          "local": "2026-10-16 08:14-05:00"
+        },
+        "terminal": "5",
+        "runway": "28R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "KBOS",
+          "iata": "BOS",
+          "name": "Boston",
+          "location": {
+            "lat": 42.3643,
+            "lon": -71.0052
+          },
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 15:00Z",
+          "local": "2026-10-16 11:00-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 15:05Z",
+          "local": "2026-10-16 11:05-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 15:04Z",
+          "local": "2026-10-16 11:04-04:00"
+        },
+        "terminal": "A",
+        "runway": "22L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DL 2828",
+      "callSign": "DAL2828",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N377DA",
+        "modeS": "A44E18",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:00Z",
+          "local": "2026-10-16 08:00-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:05Z",
+          "local": "2026-10-16 08:05-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:12Z",
+          "local": "2026-10-16 08:12-05:00"
+        },
+        "terminal": "3",
+        "runway": "22L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "KTUL",
+          "iata": "TUL",
+          "name": "Tulsa",
+          "location": {
+            "lat": 36.1984,
+            "lon": -95.8881
+          },
+          "countryCode": "us",
+          "timeZone": "America/Chicago"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 15:07Z",
+          "local": "2026-10-16 10:07-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 15:01Z",
+          "local": "2026-10-16 10:01-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 14:51Z",
+          "local": "2026-10-16 09:51-05:00"
+        },
+        "runway": "36R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 4135",
+      "callSign": "ENY4135",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N766JM",
+        "modeS": "AA58A6",
+        "model": "Embraer 170"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:02Z",
+          "local": "2026-10-16 08:02-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:07Z",
+          "local": "2026-10-16 08:07-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:15Z",
+          "local": "2026-10-16 08:15-05:00"
+        },
+        "terminal": "3",
+        "runway": "28R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "KROC",
+          "iata": "ROC",
+          "name": "Rochester",
+          "location": {
+            "lat": 43.1189,
+            "lon": -77.6724
+          },
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 14:55Z",
+          "local": "2026-10-16 10:55-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 14:48Z",
+          "local": "2026-10-16 10:48-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 14:24Z",
+          "local": "2026-10-16 10:24-04:00"
+        },
+        "runway": "22",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 4191",
+      "callSign": "ENY4191",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N741AK",
+        "modeS": "A9F64B",
+        "model": "Embraer 170"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:03Z",
+          "local": "2026-10-16 08:03-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:10Z",
+          "local": "2026-10-16 08:10-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:16Z",
+          "local": "2026-10-16 08:16-05:00"
+        },
+        "terminal": "3",
+        "runway": "28R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "KBUF",
+          "iata": "BUF",
+          "name": "Buffalo",
+          "location": {
+            "lat": 42.9405,
+            "lon": -78.7322
+          },
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 14:53Z",
+          "local": "2026-10-16 10:53-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 14:45Z",
+          "local": "2026-10-16 10:45-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 14:24Z",
+          "local": "2026-10-16 10:24-04:00"
+        },
+        "runway": "23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 4780",
+      "callSign": "RPA4780",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N424YX",
+        "modeS": "A50CB7",
+        "model": "Embraer 175"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 12:25Z",
+          "local": "2026-10-16 07:25-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:10Z",
+          "local": "2026-10-16 08:10-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:18Z",
+          "local": "2026-10-16 08:18-05:00"
+        },
+        "runway": "22L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "KDEC",
+          "iata": "DEC",
+          "name": "Decatur",
+          "location": {
+            "lat": 39.8346,
+            "lon": -88.8657
+          },
+          "countryCode": "us",
+          "timeZone": "America/Chicago"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 12:56Z",
+          "local": "2026-10-16 07:56-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:52Z",
+          "local": "2026-10-16 08:52-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:52Z",
+          "local": "2026-10-16 08:52-05:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 5027",
+      "callSign": "SKW5027",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N679SA",
+        "modeS": "A8FEB8",
+        "model": "Canadair CRJ 200"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:09Z",
+          "local": "2026-10-16 08:09-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:10Z",
+          "local": "2026-10-16 08:10-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:17Z",
+          "local": "2026-10-16 08:17-05:00"
+        },
+        "terminal": "3",
+        "runway": "28R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "KSNA",
+          "iata": "SNA",
+          "name": "Santa Ana",
+          "location": {
+            "lat": 33.6757,
+            "lon": -117.868
+          },
+          "countryCode": "us",
+          "timeZone": "America/Los_Angeles"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 17:45Z",
+          "local": "2026-10-16 10:45-07:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 17:37Z",
+          "local": "2026-10-16 10:37-07:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 16:59Z",
+          "local": "2026-10-16 09:59-07:00"
+        },
+        "runway": "02L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 699",
+      "callSign": "AAL699",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N357TY",
+        "modeS": "A4008E",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTime": {
+          "utc": "2026-10-16 12:59Z",
+          "local": "2026-10-16 07:59-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:11Z",
+          "local": "2026-10-16 08:11-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:12Z",
+          "local": "2026-10-16 08:12-05:00"
+        },
+        "terminal": "3",
+        "runway": "28R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "KBWI",
+          "iata": "BWI",
+          "name": "Baltimore",
+          "location": {
+            "lat": 39.1754,
+            "lon": -76.6683
+          },
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 15:01Z",
+          "local": "2026-10-16 11:01-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 14:55Z",
+          "local": "2026-10-16 10:55-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 14:49Z",
+          "local": "2026-10-16 10:49-04:00"
+        },
+        "runway": "33L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 3523",
+      "callSign": "ENY3523",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N309JR",
+        "modeS": "A34199",
+        "model": "Embraer 170"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    }
+  ],
+  "arrivals": [
+    {
+      "departure": {
+        "airport": {
+          "name": "Charlotte"
+        },
+        "quality": []
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:00Z",
+          "local": "2026-10-16 08:00-05:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "UA 1304",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "United",
+        "iata": "UA",
+        "icao": "UAL"
+      }
+    },
+    {
+      "departure": {
+        "airport": {
+          "icao": "KHSV",
+          "iata": "HSV",
+          "name": "Huntsville",
+          "location": {
+            "lat": 34.6372,
+            "lon": -86.7751
+          },
+          "countryCode": "us",
+          "timeZone": "America/Chicago"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 11:02Z",
+          "local": "2026-10-16 06:02-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 11:08Z",
+          "local": "2026-10-16 06:08-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 11:08Z",
+          "local": "2026-10-16 06:08-05:00"
+        },
+        "runway": "18R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:26Z",
+          "local": "2026-10-16 08:26-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:00Z",
+          "local": "2026-10-16 08:00-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 12:38Z",
+          "local": "2026-10-16 07:38-05:00"
+        },
+        "terminal": "3",
+        "runway": "28C",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 3381",
+      "callSign": "ENY3381",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N253NN",
+        "modeS": "A263DC",
+        "model": "Embraer 175"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "airport": {
+          "icao": "KFNT",
+          "iata": "FNT",
+          "name": "Flint",
+          "location": {
+            "lat": 42.9654,
+            "lon": -83.7436
+          },
+          "countryCode": "us",
+          "timeZone": "America/Detroit"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 10:55Z",
+          "local": "2026-10-16 06:55-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 11:42Z",
+          "local": "2026-10-16 07:42-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 11:42Z",
+          "local": "2026-10-16 07:42-04:00"
+        },
+        "runway": "27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 12:24Z",
+          "local": "2026-10-16 07:24-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:00Z",
+          "local": "2026-10-16 08:00-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 12:32Z",
+          "local": "2026-10-16 07:32-05:00"
+        },
+        "terminal": "2",
+        "runway": "27R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "UA 4714",
+      "callSign": "SKW4714",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N925EV",
+        "modeS": "ACD135",
+        "model": "Canadair CRJ 200"
+      },
+      "airline": {
+        "name": "United",
+        "iata": "UA",
+        "icao": "UAL"
+      }
+    },
+    {
+      "departure": {
+        "airport": {
+          "icao": "KTVC",
+          "iata": "TVC",
+          "name": "Traverse City",
+          "location": {
+            "lat": 44.7414,
+            "lon": -85.5822
+          },
+          "countryCode": "us",
+          "timeZone": "America/Detroit"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 12:06Z",
+          "local": "2026-10-16 08:06-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 12:11Z",
+          "local": "2026-10-16 08:11-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 12:11Z",
+          "local": "2026-10-16 08:11-04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 12:55Z",
+          "local": "2026-10-16 07:55-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:06Z",
+          "local": "2026-10-16 08:06-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 12:59Z",
+          "local": "2026-10-16 07:59-05:00"
+        },
+        "runway": "27C",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "MQ 4273",
+      "callSign": "ENY4273",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N780AH",
+        "modeS": "AA908E",
+        "model": "Embraer 170"
+      },
+      "airline": {
+        "name": "Envoy Air",
+        "iata": "MQ",
+        "icao": "ENY"
+      }
+    },
+    {
+      "departure": {
+        "airport": {
+          "icao": "KTPA",
+          "iata": "TPA",
+          "name": "Tampa",
+          "location": {
+            "lat": 27.9755,
+            "lon": -82.5332
+          },
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 10:50Z",
+          "local": "2026-10-16 06:50-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 10:48Z",
+          "local": "2026-10-16 06:48-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 10:52Z",
+          "local": "2026-10-16 06:52-04:00"
+        },
+        "runway": "01L",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:56Z",
+          "local": "2026-10-16 08:56-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:06Z",
+          "local": "2026-10-16 08:06-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:00Z",
+          "local": "2026-10-16 08:00-05:00"
+        },
+        "terminal": "3",
+        "runway": "27C",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 354",
+      "callSign": "AAL354",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N336TM",
+        "modeS": "A3ADCE",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "airport": {
+          "icao": "KRIC",
+          "iata": "RIC",
+          "name": "Richmond",
+          "location": {
+            "lat": 37.5052,
+            "lon": -77.3197
+          },
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 10:20Z",
+          "local": "2026-10-16 06:20-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 10:54Z",
+          "local": "2026-10-16 06:54-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 10:55Z",
+          "local": "2026-10-16 06:55-04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 12:42Z",
+          "local": "2026-10-16 07:42-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:07Z",
+          "local": "2026-10-16 08:07-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 12:32Z",
+          "local": "2026-10-16 07:32-05:00"
+        },
+        "terminal": "1",
+        "runway": "27C",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "UA 224",
+      "callSign": "UAL224",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N848UA",
+        "modeS": "AB9F54",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "United",
+        "iata": "UA",
+        "icao": "UAL"
+      }
+    },
+    {
+      "departure": {
+        "airport": {
+          "icao": "KMKG",
+          "iata": "MKG",
+          "name": "Muskegon",
+          "location": {
+            "lat": 43.1695,
+            "lon": -86.2382
+          },
+          "countryCode": "us",
+          "timeZone": "America/Detroit"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 12:20Z",
+          "local": "2026-10-16 08:20-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 12:37Z",
+          "local": "2026-10-16 08:37-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 12:37Z",
+          "local": "2026-10-16 08:37-04:00"
+        },
+        "runway": "32",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:20Z",
+          "local": "2026-10-16 08:20-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:08Z",
+          "local": "2026-10-16 08:08-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:07Z",
+          "local": "2026-10-16 08:07-05:00"
+        },
+        "terminal": "3",
+        "runway": "27C",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "KG 5730",
+      "callSign": "LYM5730",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N973DC",
+        "modeS": "AD8F18",
+        "model": "Embraer 145"
+      },
+      "airline": {
+        "name": "Denver Air Connection",
+        "iata": "KG",
+        "icao": "LYM"
+      }
+    },
+    {
+      "departure": {
+        "airport": {
+          "icao": "KMEM",
+          "iata": "MEM",
+          "name": "Memphis",
+          "location": {
+            "lat": 35.0424,
+            "lon": -89.9767
+          },
+          "countryCode": "us",
+          "timeZone": "America/Chicago"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 11:41Z",
+          "local": "2026-10-16 06:41-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 11:45Z",
+          "local": "2026-10-16 06:45-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 11:45Z",
+          "local": "2026-10-16 06:45-05:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:47Z",
+          "local": "2026-10-16 08:47-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:09Z",
+          "local": "2026-10-16 08:09-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:02Z",
+          "local": "2026-10-16 08:02-05:00"
+        },
+        "terminal": "3",
+        "runway": "28C",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 4448",
+      "callSign": "RPA4448",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N413YX",
+        "modeS": "A4E181",
+        "model": "Embraer 175"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "airport": {
+          "icao": "KMWA",
+          "iata": "MWA",
+          "name": "Marion",
+          "location": {
+            "lat": 37.755,
+            "lon": -89.0111
+          },
+          "countryCode": "us",
+          "timeZone": "America/Chicago"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 11:49Z",
+          "local": "2026-10-16 06:49-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 11:55Z",
+          "local": "2026-10-16 06:55-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 11:55Z",
+          "local": "2026-10-16 06:55-05:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 13:28Z",
+          "local": "2026-10-16 08:28-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:10Z",
+          "local": "2026-10-16 08:10-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 12:51Z",
+          "local": "2026-10-16 07:51-05:00"
+        },
+        "terminal": "3",
+        "runway": "28C",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AA 6280",
+      "callSign": "SKW6280",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N613SK",
+        "modeS": "A7FB7D",
+        "model": "Canadair CRJ-701ER"
+      },
+      "airline": {
+        "name": "American",
+        "iata": "AA",
+        "icao": "AAL"
+      }
+    },
+    {
+      "departure": {
+        "airport": {
+          "icao": "KEWR",
+          "iata": "EWR",
+          "name": "Newark",
+          "location": {
+            "lat": 40.6925,
+            "lon": -74.1687
+          },
+          "countryCode": "us",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-10-16 10:00Z",
+          "local": "2026-10-16 06:00-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 10:47Z",
+          "local": "2026-10-16 06:47-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 11:03Z",
+          "local": "2026-10-16 07:03-04:00"
+        },
+        "terminal": "C",
+        "runway": "22R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "scheduledTime": {
+          "utc": "2026-10-16 12:42Z",
+          "local": "2026-10-16 07:42-05:00"
+        },
+        "revisedTime": {
+          "utc": "2026-10-16 13:10Z",
+          "local": "2026-10-16 08:10-05:00"
+        },
+        "runwayTime": {
+          "utc": "2026-10-16 13:04Z",
+          "local": "2026-10-16 08:04-05:00"
+        },
+        "terminal": "1",
+        "runway": "27C",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "UA 530",
+      "callSign": "UAL530",
+      "status": "Arrived",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N33132",
+        "modeS": "A39C62",
+        "model": "Boeing 757-200"
+      },
+      "airline": {
+        "name": "United",
+        "iata": "UA",
+        "icao": "UAL"
+      }
+    }
+  ]
+}
