@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: fct_flights
+    description: One row per flight per queried airport, with local time and delay metrics.
+    columns:
+      - name: flight_key
+        data_tests: [unique, not_null]
+      - name: airport_icao
+        data_tests:
+          - relationships:
+              to: ref('airports')
+              field: icao
+      - name: direction
+        data_tests:
+          - accepted_values:
+              values: ['departure', 'arrival']
+      - name: status
+        data_tests:
+          - accepted_values:
+              config:
+                severity: warn   # warn so a new API status doesn't break the pipeline
+              values: ['Unknown', 'Expected', 'EnRoute', 'CheckIn', 'Boarding', 'GateClosed',
+                       'Departed', 'Delayed', 'Approaching', 'Arrived', 'Canceled',
+                       'Diverted', 'CanceledUncertain']

@@ -6,3 +6,7 @@ sources:
     tables:
       - name: flights_raw
         description: Untouched AeroDataBox FIDS responses, one row per airport per 12-hour window.
+        loaded_at_field: ingested_at
+        freshness:
+          warn_after: {count: 13, period: hour}
+          error_after: {count: 25, period: hour}

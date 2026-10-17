@@ -6,6 +6,8 @@ import pendulum
 import requests
 from airflow.decorators import dag, task
 from airflow.providers.postgres.hooks.postgres import PostgresHook
+from airflow.operators.bash import BashOperator
+
 
 log = logging.getLogger(__name__)
 
@@ -15,6 +17,7 @@ AIRPORTS = {
     "KATL": "America/New_York",
 }
 FMT = "%Y-%m-%dT%H:%M"
+DBT = "cd /opt/airflow/dbt && /home/airflow/dbt_venv/bin/dbt"
 
 
 @dag(
@@ -70,7 +73,12 @@ def flight_ingest():
                 (icao, start.strftime(FMT), end.strftime(FMT), json.dumps(payload)),
             )
 
-    ingest.expand(icao=list(AIRPORTS.keys()))
+    ingested = ingest.expand(icao=list(AIRPORTS.keys()))
+    dbt_seed = BashOperator(task_id="dbt_seed", bash_command=f"{DBT} seed")
+    dbt_run = BashOperator(task_id="dbt_run", bash_command=f"{DBT} run")
+    dbt_test = BashOperator(task_id="dbt_test", bash_command=f"{DBT} test")
+
+    ingested >> dbt_seed >> dbt_run >> dbt_test
 
 
 flight_ingest()
