@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: flights_raw
+        description: Untouched AeroDataBox FIDS responses, one row per airport per 12-hour window.
