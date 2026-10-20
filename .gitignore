@@ -8,3 +8,4 @@ dbt/dbt_packages/
 headers.txt
 docs/sample_response.json
 docs/sample_response.json
+dbt/.user.yml
