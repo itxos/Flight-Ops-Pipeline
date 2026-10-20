@@ -82,3 +82,13 @@ Open Metabase at `http://localhost:3000`, create an admin account, and connect P
 | Airflow | http://localhost:8080 |
 | Metabase | http://localhost:3000 |
 | Postgres | localhost:5432 |
+
+## Future work
+
+- **Overlapping fetch windows.** Fetch a wider range than the reporting window and dedupe, so heavily delayed flights near a window boundary aren't dropped (see Data quality finding 2).
+- **Reliable departure delay.** Test whether another endpoint or a different timestamp field gives consistent gate-out times, so departure on-time performance can be reported alongside arrivals.
+- **Weather join.** Add hourly weather observations per airport (for example, from NOAA METAR data) and analyze how wind, visibility, and storms relate to delay spikes like the evening at ORD on Oct 15.
+- **CI.** A GitHub Actions workflow that lints SQL and runs `dbt build` against a throwaway Postgres container on every pull request.
+- **Incremental models.** Move `fct_flights` to an incremental materialization as history grows, so each run processes only new windows.
+- **Alerting.** Send an Airflow failure notification (email or webhook) when ingestion fails or source freshness breaks.
+- **More airports.** The ingestion DAG is driven by a dictionary and the `airports` seed, so adding a hub is a two-line change plus about 4 quota units per day.
