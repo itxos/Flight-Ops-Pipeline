@@ -22,6 +22,8 @@ In short: Airflow calls the API every 12 hours (one call per airport), stores th
 
 ## Quick start
 
+**Handy commands:** `make up`, `make down`, `make dbt-run`, `make dbt-test`, `make psql`
+
 **Requirements:** Docker and Docker Compose, plus a [RapidAPI](https://rapidapi.com) key subscribed to [AeroDataBox](https://rapidapi.com/aedbx-aedbx/api/aerodatabox).
 
 **1. Clone and configure**
